@@ -1,0 +1,53 @@
+#board {
+    text-align: center;
+    padding: 3em;
+}
+
+div > .row {
+    height: 100px;
+    width: 100px;
+    float: left;
+    cursor: pointer;
+}
+
+.row {
+    clear: both;
+    margin: 0 auto;
+    width: 302px;
+}
+
+.top-left {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.top-middle {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.top-right {
+    border-bottom: 1px solid black;
+}
+
+.center-left {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.center {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.center-right {
+    border-bottom: 1px solid black;
+}
+
+.bottom-left {
+    border-right: 1px solid black;
+}
+
+.bottom-right {
+    border-left: 1px solid black;
+}
