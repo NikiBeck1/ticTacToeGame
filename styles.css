@@ -3,11 +3,29 @@
     padding-top: 3em;
 }
 
+body {
+    background-color: wheat;
+}
+
 .row > div {
     height: 100px;
     width: 100px;
     float: left;
     cursor: pointer;
+    font-size: 75px;
+    color: rgb(53, 53, 53);
+    font-family: Helvetica;
+}
+
+h3 {
+    font-family: Helvetica;
+    color: rgb(130, 0, 0);
+    font-size: 30px;
+}
+
+h1 {
+    font-family: Helvetica;
+    color: rgb(53, 53, 53);
 }
 
 .row {
